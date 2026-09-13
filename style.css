@@ -5,8 +5,9 @@
   --primary: #0b1c3c;
   --primary-foreground: #ffffff;
   --secondary: #e3f0f3;
-  --muted-foreground: #8b8f98;
+  --muted-foreground: #5a6169;
   --accent: #137990;
+  --accent-text: #106878;
   --border: #e2e4e9;
   --radius: 1rem;
   --font-heading: "Poppins", ui-sans-serif, system-ui, sans-serif;
@@ -151,7 +152,7 @@ main {
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--accent-text);
   font-family: var(--font-heading);
 }
 
@@ -263,7 +264,7 @@ main {
   font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--accent-text);
   font-family: var(--font-heading);
   white-space: nowrap;
 }
@@ -506,7 +507,7 @@ footer {
 .footer-note a {
   font-family: var(--font-heading);
   font-weight: 600;
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .footer-note a:hover {
@@ -514,8 +515,8 @@ footer {
 }
 
 @keyframes fade-up {
-  from { opacity: 0; transform: translateY(20px); filter: blur(6px); }
-  to { opacity: 1; transform: translateY(0); filter: blur(0); }
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 @media (prefers-reduced-motion: reduce) {
