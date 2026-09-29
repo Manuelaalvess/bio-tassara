@@ -89,7 +89,6 @@ main {
 .hero {
   text-align: center;
   padding-top: max(2rem, env(safe-area-inset-top, 0px));
-  padding-bottom: 2rem;
   animation: fade-up 1.1s cubic-bezier(.22,1,.36,1) both;
 }
 
