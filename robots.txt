@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://manuelaalvess.github.io/bio-tassara/sitemap.xml
+Sitemap: https://tassara.com.br/sitemap.xml
